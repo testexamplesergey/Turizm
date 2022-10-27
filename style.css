@@ -1,0 +1,171 @@
+*, :before, :after {
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	line-height: 1.6;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+
+header {
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	border-bottom: 1px solid gray;
+}
+
+.container {
+	max-width: 1600px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.headermenu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 0;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo a {
+	text-decoration: none;
+	color: black;
+}
+
+.logo img {
+	margin-right: 10px;
+}
+
+.logotext {
+	font-size: 28px;
+}
+
+.nav_oll {
+	text-decoration: none;
+	font-size: 24px;
+	color: black;
+	margin: 0 15px;
+}
+
+.section {
+	padding: 50px 0;
+}
+
+.sect--all {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.img {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 40px;
+
+}
+
+.immg--im {
+	margin-top: 120px;
+}
+
+.item_img {
+	width: 400px;
+	margin: 20px;
+	padding-bottom: 30px;
+}
+
+footer {
+	background-color: lightgray;
+	padding: 20px 0;
+}
+
+.ll--jo {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+table {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+.items_main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+		margin-top: 40px;
+}
+
+.items {
+	max-width: 800px;
+	width: 100%;
+}
+
+.items img {
+	display: block;
+}
+
+.text_main {
+	margin-left: 16px;
+	font-size: 20px;
+}
+
+.dop--pop {
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.block_stat {
+			margin: 20px 0;
+			background-color: lightgray;
+		}
+
+		.stat {
+			display: flex;
+		}
+
+		.stat_item {
+			flex: 1 1 0;
+			color: black;
+			text-align:  center;
+			border-left: 1px solid gray;
+			padding: 50px 25px;
+		}
+
+		.stat_item:last-child {
+			border-right: 1px solid gray;
+		}
+
+		.stat_cont {
+			font-size: 50px;
+			line-height: 1;
+		}
+
+		.stat_text {
+			font-size: 14px;
+			text-transform: uppercase;
+			font-family: 'Open Sans', arial, sans-serif;
+		}
+
+		.textcool {
+			font-size: 20px;
+		}
+
+		.img a {
+			text-decoration: none;
+			color: black;
+		}
